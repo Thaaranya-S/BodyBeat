@@ -16,6 +16,13 @@
 		ED28F6912B6A904400ECA50D /* BodyBeatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28F6902B6A904400ECA50D /* BodyBeatsTests.swift */; };
 		ED28F69B2B6A904400ECA50D /* BodyBeatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28F69A2B6A904400ECA50D /* BodyBeatsUITests.swift */; };
 		ED28F69D2B6A904400ECA50D /* BodyBeatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28F69C2B6A904400ECA50D /* BodyBeatsUITestsLaunchTests.swift */; };
+		ED28F6AA2B6A909900ECA50D /* ActiveTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28F6A92B6A909900ECA50D /* ActiveTabView.swift */; };
+		ED28F6AC2B6A912F00ECA50D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28F6AB2B6A912F00ECA50D /* HomeView.swift */; };
+		ED28F6AE2B6A91C300ECA50D /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28F6AD2B6A91C300ECA50D /* ActivityCard.swift */; };
+		ED28F6B02B6A980E00ECA50D /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28F6AF2B6A980E00ECA50D /* HealthManager.swift */; };
+		EDFF03BF2B6B9CB200A40E4A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFF03BE2B6B9CB200A40E4A /* ChartView.swift */; };
+		EDFF03CF2B6BD7F500A40E4A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFF03CD2B6BD7F500A40E4A /* LoginViewController.swift */; };
+		EDFF03D02B6BD7F500A40E4A /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFF03CE2B6BD7F500A40E4A /* LoginViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,15 @@
 		ED28F6962B6A904400ECA50D /* BodyBeatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyBeatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED28F69A2B6A904400ECA50D /* BodyBeatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyBeatsUITests.swift; sourceTree = "<group>"; };
 		ED28F69C2B6A904400ECA50D /* BodyBeatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyBeatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED28F6A92B6A909900ECA50D /* ActiveTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveTabView.swift; sourceTree = "<group>"; };
+		ED28F6AB2B6A912F00ECA50D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ED28F6AD2B6A91C300ECA50D /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		ED28F6AF2B6A980E00ECA50D /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		ED28F6B12B6A9A5C00ECA50D /* BodyBeats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BodyBeats.entitlements; sourceTree = "<group>"; };
+		ED28F6B22B6AA03000ECA50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EDFF03BE2B6B9CB200A40E4A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		EDFF03CD2B6BD7F500A40E4A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EDFF03CE2B6BD7F500A40E4A /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +114,9 @@
 		ED28F6792B6A903D00ECA50D /* BodyBeats */ = {
 			isa = PBXGroup;
 			children = (
+				EDFF03C02B6BC10000A40E4A /* Modules */,
+				ED28F6B22B6AA03000ECA50D /* Info.plist */,
+				ED28F6B12B6A9A5C00ECA50D /* BodyBeats.entitlements */,
 				ED28F67A2B6A903D00ECA50D /* BodyBeatsApp.swift */,
 				ED28F67C2B6A903D00ECA50D /* ContentView.swift */,
 				ED28F67E2B6A904400ECA50D /* Assets.xcassets */,
@@ -131,6 +150,60 @@
 				ED28F69C2B6A904400ECA50D /* BodyBeatsUITestsLaunchTests.swift */,
 			);
 			path = BodyBeatsUITests;
+			sourceTree = "<group>";
+		};
+		EDF99B102B6BECFB009A0201 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ED28F6A92B6A909900ECA50D /* ActiveTabView.swift */,
+				ED28F6AB2B6A912F00ECA50D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EDF99B112B6BED06009A0201 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ED28F6AF2B6A980E00ECA50D /* HealthManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EDF99B122B6BED11009A0201 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				EDFF03BE2B6B9CB200A40E4A /* ChartView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		EDF99B132B6BED1E009A0201 /* Resuable */ = {
+			isa = PBXGroup;
+			children = (
+				ED28F6AD2B6A91C300ECA50D /* ActivityCard.swift */,
+			);
+			path = Resuable;
+			sourceTree = "<group>";
+		};
+		EDFF03C02B6BC10000A40E4A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EDFF03C12B6BC10900A40E4A /* Login */,
+				EDF99B102B6BECFB009A0201 /* Home */,
+				EDF99B122B6BED11009A0201 /* Chart */,
+				EDF99B112B6BED06009A0201 /* Manager */,
+				EDF99B132B6BED1E009A0201 /* Resuable */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EDFF03C12B6BC10900A40E4A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EDFF03CE2B6BD7F500A40E4A /* LoginViewController.storyboard */,
+				EDFF03CD2B6BD7F500A40E4A /* LoginViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDFF03D02B6BD7F500A40E4A /* LoginViewController.storyboard in Resources */,
 				ED28F6822B6A904400ECA50D /* Preview Assets.xcassets in Resources */,
 				ED28F67F2B6A904400ECA50D /* Assets.xcassets in Resources */,
 			);
@@ -264,9 +338,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED28F6842B6A904400ECA50D /* Persistence.swift in Sources */,
+				ED28F6AA2B6A909900ECA50D /* ActiveTabView.swift in Sources */,
 				ED28F67D2B6A903D00ECA50D /* ContentView.swift in Sources */,
+				ED28F6AC2B6A912F00ECA50D /* HomeView.swift in Sources */,
 				ED28F67B2B6A903D00ECA50D /* BodyBeatsApp.swift in Sources */,
+				EDFF03BF2B6B9CB200A40E4A /* ChartView.swift in Sources */,
+				ED28F6AE2B6A91C300ECA50D /* ActivityCard.swift in Sources */,
 				ED28F6872B6A904400ECA50D /* BodyBeats.xcdatamodeld in Sources */,
+				EDFF03CF2B6BD7F500A40E4A /* LoginViewController.swift in Sources */,
+				ED28F6B02B6A980E00ECA50D /* HealthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,11 +502,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BodyBeats/BodyBeats.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BodyBeats/Preview Content\"";
+				DEVELOPMENT_TEAM = FMDFUAL9HH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BodyBeats/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow to enjoy the features of the healthKit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,11 +534,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BodyBeats/BodyBeats.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BodyBeats/Preview Content\"";
+				DEVELOPMENT_TEAM = FMDFUAL9HH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BodyBeats/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow to enjoy the features of the healthKit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

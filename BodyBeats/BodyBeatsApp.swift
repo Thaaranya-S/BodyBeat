@@ -9,12 +9,25 @@ import SwiftUI
 
 @main
 struct BodyBeatsApp: App {
-    let persistenceController = PersistenceController.shared
-
+    @StateObject var manager = HealthManager()
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            StoryboardInitialViewController()
+                .environmentObject(manager)
+//            ActiveTabView()
+//                .environmentObject(manager)
         }
+    }
+}
+
+struct StoryboardInitialViewController: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> UIViewController {
+        let storyboard = UIStoryboard(name: "LoginViewController", bundle: nil)
+        let initialViewController = storyboard.instantiateInitialViewController()
+        return initialViewController!
+    }
+
+    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
+        // Update if needed
     }
 }

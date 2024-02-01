@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AD6A7342-78DB-4D47-9BE0-43610BED316C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6CB2061-DB3B-430D-903E-5C74E0D938DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BodyBeats/Modules/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "btnAppleClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F6CB2061-DB3B-430D-903E-5C74E0D938DE - b7454669db157bbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BodyBeats.LoginViewController.btnAppleClicked(__C.UIButton) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "F6CB2061-DB3B-430D-903E-5C74E0D938DE - b7454669db157bbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BodyBeats.LoginViewController.btnAppleClicked(__C.UIButton) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCADD47E-B093-44F5-82DE-C5B860EF5F70"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BodyBeats/Modules/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "btnAppleClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FCADD47E-B093-44F5-82DE-C5B860EF5F70 - 495f51b1d9b2fa62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ASAuthorizationAppleIDProviderCredentialState, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BodyBeats.LoginViewController.btnAppleClicked(__C.UIButton) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  uuid = "FCADD47E-B093-44F5-82DE-C5B860EF5F70 - 495f51b1d9b2fa62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ASAuthorizationAppleIDProviderCredentialState, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BodyBeats.LoginViewController.btnAppleClicked(__C.UIButton) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53C90210-A3AF-434A-BD39-CA3F5E5CE987"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BodyBeats/Modules/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "btnAppleClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "53C90210-A3AF-434A-BD39-CA3F5E5CE987 - 495f51b1d9b2fbee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ASAuthorizationAppleIDProviderCredentialState, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BodyBeats.LoginViewController.btnAppleClicked(__C.UIButton) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "301">
+               </Location>
+               <Location
+                  uuid = "53C90210-A3AF-434A-BD39-CA3F5E5CE987 - 495f51b1d9b2fbee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ASAuthorizationAppleIDProviderCredentialState, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BodyBeats.LoginViewController.btnAppleClicked(__C.UIButton) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0389E47E-DFA2-4D0B-AB61-92133C7F51EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BodyBeats/Modules/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "btnAppleClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0389E47E-DFA2-4D0B-AB61-92133C7F51EF - 495f51b1d9b2fb6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ASAuthorizationAppleIDProviderCredentialState, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BodyBeats.LoginViewController.btnAppleClicked(__C.UIButton) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "527">
+               </Location>
+               <Location
+                  uuid = "0389E47E-DFA2-4D0B-AB61-92133C7F51EF - 495f51b1d9b2fb6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ASAuthorizationAppleIDProviderCredentialState, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BodyBeats.LoginViewController.btnAppleClicked(__C.UIButton) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56278AA5-958D-459F-901D-7C08DE95CE38"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BodyBeats/Modules/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "btnAppleClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "56278AA5-958D-459F-901D-7C08DE95CE38 - 495f51b1d9b2fb09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ASAuthorizationAppleIDProviderCredentialState, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BodyBeats.LoginViewController.btnAppleClicked(__C.UIButton) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "56278AA5-958D-459F-901D-7C08DE95CE38 - 495f51b1d9b2fb09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ASAuthorizationAppleIDProviderCredentialState, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BodyBeats.LoginViewController.btnAppleClicked(__C.UIButton) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "504">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C20978A-03D8-4C73-B948-1AF4830F176C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BodyBeats/Modules/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "handleAppleIdRequest()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9C20978A-03D8-4C73-B948-1AF4830F176C - 5cff33e637863819"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BodyBeats.LoginViewController.handleAppleIdRequest() -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "9C20978A-03D8-4C73-B948-1AF4830F176C - 5cff33e637863819"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BodyBeats.LoginViewController.handleAppleIdRequest() -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F83004A7-C2C3-4B0B-A372-3E1ECCA99FFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BodyBeats/Modules/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "authorizationController(controller:didCompleteWithAuthorization:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F83004A7-C2C3-4B0B-A372-3E1ECCA99FFE - 2685d6e9a5176718"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BodyBeats.LoginViewController.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "3396">
+               </Location>
+               <Location
+                  uuid = "F83004A7-C2C3-4B0B-A372-3E1ECCA99FFE - 2685d6e9a5176718"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BodyBeats.LoginViewController.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "3452">
+               </Location>
+               <Location
+                  uuid = "F83004A7-C2C3-4B0B-A372-3E1ECCA99FFE - 2685d6e9a5176718"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BodyBeats.LoginViewController.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "4810">
+               </Location>
+               <Location
+                  uuid = "F83004A7-C2C3-4B0B-A372-3E1ECCA99FFE - 2685d6e9a5176718"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BodyBeats.LoginViewController.authorizationController(controller: __C.ASAuthorizationController, didCompleteWithAuthorization: __C.ASAuthorization) -&gt; ()"
+                  moduleName = "BodyBeats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaaranyasubramani/Desktop/BodyBeats/BodyBeats/Modules/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "4096">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
