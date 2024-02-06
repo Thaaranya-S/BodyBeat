@@ -7,6 +7,7 @@
 
 import Foundation
 import HealthKit
+import SwiftUI
 
 extension Date {
     static var startOfDay: Date {
@@ -24,6 +25,18 @@ extension Date {
         let oneMonth = calendar.date(byAdding: .month,value: -1, to: Date())
         return calendar.startOfDay(for: oneMonth!)
     }
+    
+    static var oneYear: Date {
+        let calendar = Calendar.current
+        let year = calendar.date(byAdding: .year,value: -1, to: Date())
+        return calendar.startOfDay(for: year!)
+    }
+    
+    static var oneQuarter: Date {
+        let calendar = Calendar.current
+        let quarter = calendar.date(byAdding: .quarter,value: -1, to: Date())
+        return calendar.startOfDay(for: quarter!)
+    }
 }
 
 extension Double {
@@ -38,8 +51,11 @@ extension Double {
 class HealthManager: ObservableObject {
     
     let healthStore = HKHealthStore()
+    @State private var isShowingPopup = false
     @Published var activites: [String : Activity] = [:]
     @Published var oneMonthChartDate = [DailyStepView]()
+    @Published var oneWeekChartDate = [DailyStepView]()
+    @Published var oneyearChartDate = [DailyStepView]()
     
     @Published var mockActivies: [String : Activity] = [
         "TodaySteps" : Activity(id: 0, title: "Today steps", subtitle: "10,000", image: "figure.walk", tintColor: .green, amount: "1000"),
@@ -58,6 +74,7 @@ class HealthManager: ObservableObject {
                 fetchTodaySteps()
                 fetchTodayCalories()
                 fetchCurrentWeekWorkoutStats()
+                fetchOneWeekStepData()
                 fetchOneMonthStepData()
             } catch {
                 print("error fetching health data")
@@ -189,6 +206,30 @@ extension HealthManager {
         fetchDailySteps(startDate: .oneMonthAgo) { dailySteps in
             DispatchQueue.main.async {
                 self.oneMonthChartDate = dailySteps
+            }
+        }
+    }
+    
+    func fetchOneWeekStepData() {
+        fetchDailySteps(startDate: .oneYear) { dailySteps in
+            DispatchQueue.main.async {
+                self.oneWeekChartDate = dailySteps
+            }
+        }
+    }
+    
+    func fetchOneYearStepData() {
+        fetchDailySteps(startDate: .oneYear) { dailySteps in
+            DispatchQueue.main.async {
+                self.oneyearChartDate = dailySteps
+            }
+        }
+    }
+    
+    func fetchOneQuarterData() {
+        fetchDailySteps(startDate: .oneYear) { dailySteps in
+            DispatchQueue.main.async {
+                self.oneyearChartDate = dailySteps
             }
         }
     }

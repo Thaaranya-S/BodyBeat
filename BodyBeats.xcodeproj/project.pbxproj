@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED043A062B7242350024DB09 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = ED043A052B7242350024DB09 /* Lottie */; };
+		ED043A082B7248CA0024DB09 /* Run.lottie in Resources */ = {isa = PBXBuildFile; fileRef = ED043A072B7248CA0024DB09 /* Run.lottie */; };
+		ED043A0A2B724A390024DB09 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED043A092B724A390024DB09 /* LottieView.swift */; };
+		ED043A0C2B7255180024DB09 /* PopupMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED043A0B2B7255180024DB09 /* PopupMessage.swift */; };
 		ED28F67B2B6A903D00ECA50D /* BodyBeatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28F67A2B6A903D00ECA50D /* BodyBeatsApp.swift */; };
 		ED28F67D2B6A903D00ECA50D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28F67C2B6A903D00ECA50D /* ContentView.swift */; };
 		ED28F67F2B6A904400ECA50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED28F67E2B6A904400ECA50D /* Assets.xcassets */; };
@@ -20,6 +24,7 @@
 		ED28F6AC2B6A912F00ECA50D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28F6AB2B6A912F00ECA50D /* HomeView.swift */; };
 		ED28F6AE2B6A91C300ECA50D /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28F6AD2B6A91C300ECA50D /* ActivityCard.swift */; };
 		ED28F6B02B6A980E00ECA50D /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED28F6AF2B6A980E00ECA50D /* HealthManager.swift */; };
+		EDCFA9E12B727E8100249E42 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCFA9E02B727E8100249E42 /* UITextField+Extension.swift */; };
 		EDFF03BF2B6B9CB200A40E4A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFF03BE2B6B9CB200A40E4A /* ChartView.swift */; };
 		EDFF03CF2B6BD7F500A40E4A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFF03CD2B6BD7F500A40E4A /* LoginViewController.swift */; };
 		EDFF03D02B6BD7F500A40E4A /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFF03CE2B6BD7F500A40E4A /* LoginViewController.storyboard */; };
@@ -43,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED043A072B7248CA0024DB09 /* Run.lottie */ = {isa = PBXFileReference; lastKnownFileType = file; path = Run.lottie; sourceTree = "<group>"; };
+		ED043A092B724A390024DB09 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		ED043A0B2B7255180024DB09 /* PopupMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupMessage.swift; sourceTree = "<group>"; };
 		ED28F6772B6A903D00ECA50D /* BodyBeats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyBeats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED28F67A2B6A903D00ECA50D /* BodyBeatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyBeatsApp.swift; sourceTree = "<group>"; };
 		ED28F67C2B6A903D00ECA50D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +69,7 @@
 		ED28F6AF2B6A980E00ECA50D /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
 		ED28F6B12B6A9A5C00ECA50D /* BodyBeats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BodyBeats.entitlements; sourceTree = "<group>"; };
 		ED28F6B22B6AA03000ECA50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EDCFA9E02B727E8100249E42 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		EDFF03BE2B6B9CB200A40E4A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		EDFF03CD2B6BD7F500A40E4A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EDFF03CE2B6BD7F500A40E4A /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
@@ -71,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED043A062B7242350024DB09 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +124,7 @@
 		ED28F6792B6A903D00ECA50D /* BodyBeats */ = {
 			isa = PBXGroup;
 			children = (
+				ED043A072B7248CA0024DB09 /* Run.lottie */,
 				EDFF03C02B6BC10000A40E4A /* Modules */,
 				ED28F6B22B6AA03000ECA50D /* Info.plist */,
 				ED28F6B12B6A9A5C00ECA50D /* BodyBeats.entitlements */,
@@ -181,6 +192,9 @@
 			isa = PBXGroup;
 			children = (
 				ED28F6AD2B6A91C300ECA50D /* ActivityCard.swift */,
+				ED043A092B724A390024DB09 /* LottieView.swift */,
+				ED043A0B2B7255180024DB09 /* PopupMessage.swift */,
+				EDCFA9E02B727E8100249E42 /* UITextField+Extension.swift */,
 			);
 			path = Resuable;
 			sourceTree = "<group>";
@@ -222,6 +236,9 @@
 			dependencies = (
 			);
 			name = BodyBeats;
+			packageProductDependencies = (
+				ED043A052B7242350024DB09 /* Lottie */,
+			);
 			productName = BodyBeats;
 			productReference = ED28F6772B6A903D00ECA50D /* BodyBeats.app */;
 			productType = "com.apple.product-type.application";
@@ -294,6 +311,9 @@
 				Base,
 			);
 			mainGroup = ED28F66E2B6A903D00ECA50D;
+			packageReferences = (
+				ED043A042B7242350024DB09 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = ED28F6782B6A903D00ECA50D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -312,6 +332,7 @@
 			files = (
 				EDFF03D02B6BD7F500A40E4A /* LoginViewController.storyboard in Resources */,
 				ED28F6822B6A904400ECA50D /* Preview Assets.xcassets in Resources */,
+				ED043A082B7248CA0024DB09 /* Run.lottie in Resources */,
 				ED28F67F2B6A904400ECA50D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +367,9 @@
 				ED28F6AE2B6A91C300ECA50D /* ActivityCard.swift in Sources */,
 				ED28F6872B6A904400ECA50D /* BodyBeats.xcdatamodeld in Sources */,
 				EDFF03CF2B6BD7F500A40E4A /* LoginViewController.swift in Sources */,
+				ED043A0A2B724A390024DB09 /* LottieView.swift in Sources */,
+				EDCFA9E12B727E8100249E42 /* UITextField+Extension.swift in Sources */,
+				ED043A0C2B7255180024DB09 /* PopupMessage.swift in Sources */,
 				ED28F6B02B6A980E00ECA50D /* HealthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,7 +530,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BodyBeats/Preview Content\"";
-				DEVELOPMENT_TEAM = FMDFUAL9HH;
+				DEVELOPMENT_TEAM = M988C2K9GD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BodyBeats/Info.plist;
@@ -521,7 +545,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gmanlabs.BodyBeats;
+				PRODUCT_BUNDLE_IDENTIFIER = "gmanlabs.BodyBeat-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -538,7 +562,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BodyBeats/Preview Content\"";
-				DEVELOPMENT_TEAM = FMDFUAL9HH;
+				DEVELOPMENT_TEAM = M988C2K9GD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BodyBeats/Info.plist;
@@ -553,7 +577,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gmanlabs.BodyBeats;
+				PRODUCT_BUNDLE_IDENTIFIER = "gmanlabs.BodyBeat-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -605,6 +629,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M988C2K9GD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = gmanlabs.BodyBeatsUITests;
@@ -622,6 +647,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M988C2K9GD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = gmanlabs.BodyBeatsUITests;
@@ -673,6 +699,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED043A042B7242350024DB09 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED043A052B7242350024DB09 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED043A042B7242350024DB09 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		ED28F6852B6A904400ECA50D /* BodyBeats.xcdatamodeld */ = {

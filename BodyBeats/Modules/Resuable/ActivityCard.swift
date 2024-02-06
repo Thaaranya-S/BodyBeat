@@ -29,7 +29,8 @@ struct ActivityCard: View {
                 HStack(alignment: .top) {
                     VStack(alignment: .leading, spacing: 5) {
                         Text(activity.title)
-                            .font(.system(size: 16))
+                            .bold()
+                            .font(.system(size: 18))
                         
                         Text(activity.subtitle)
                             .font(.caption)
@@ -38,15 +39,17 @@ struct ActivityCard: View {
                     
                     Spacer()
                     Image(systemName: activity.image)
+                        .resizable()
+                        .frame(width: 20, height: 23)
                         .foregroundColor(activity.tintColor)
                 }
-                .padding()
+                //.padding()
                 
                 Text(activity.amount)
-                    .font(.system(size: 24))
+                    .font(.system(size: 16))
                     .minimumScaleFactor(0.6)
                     .bold()
-                    .padding(.bottom)
+                    //.padding(10)
             }
             .padding()
             .cornerRadius(12)

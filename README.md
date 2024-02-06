@@ -6,6 +6,7 @@
 5. [Structure](#structure)
 6. [Dependencies](#dependencies)
 7. [Design](#design)
+8. [Animation](#animation)
 
 # BodyBeats
 A iOS application that helps to track the Health metrics and its history.
@@ -47,12 +48,17 @@ In order to see the health metrics and to track your daily physical activies, yo
 List of dependencies: 
 * Permissions - The details will only vissible if the user allows the permission to track the Health metrics
 * Apple SignIn - The App will allow the user to login with apple account
+* Lottie Animation - Package dependency
 
 # Design 
 * Design tool user for BodyBeats [Dribbble]
 * All of the design is and must be only in one tool and currently it is Dribbble.<br>
 * Colors in the Dribbble must have same name as colors in Xcode project.<br> 
 * Basic UI elements are defined.
+
+# Animation
+[Lottie Animation](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app) 
+* Open-source animation file format that is widely used for adding high-quality animations
 
 //Important Note:
 * Login screen is created with UIKit and storyboard

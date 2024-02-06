@@ -24,6 +24,7 @@ enum ChartOption {
 
 struct ChartView: View {
     @EnvironmentObject var manager: HealthManager
+    @State var chartType = [DailyStepView]()
     @State var selectedChart: ChartOption = .oneMonth
     var body: some View {
         VStack(spacing: 12) {
@@ -34,16 +35,18 @@ struct ChartView: View {
                 .foregroundColor(.green)
             
             Chart {
-                ForEach(manager.oneMonthChartDate) { daily in
+                ForEach(chartType) { daily in
                     BarMark(x: .value(daily.date.formatted(), daily.date, unit: .day), y: .value("Steps", daily.stepCount))
                 }
             }
             .foregroundColor(.green)
             .frame(height: 350)
             .padding(.horizontal)
+            
             HStack {
-                Button("1W") {
+                Button("1Y") {
                     withAnimation {
+                        chartType = manager.oneWeekChartDate
                         selectedChart = .oneWeek
                     }
                 }
@@ -52,8 +55,9 @@ struct ChartView: View {
                 .background(selectedChart == .oneWeek ? .green : .clear)
                 .cornerRadius(10)
                 
-                Button("1M") {
+                Button("3M") {
                     withAnimation {
+                        chartType = manager.oneMonthChartDate
                         selectedChart = .oneMonth
                     }
                 }
@@ -62,8 +66,9 @@ struct ChartView: View {
                 .background(selectedChart == .oneMonth ? .green : .clear)
                 .cornerRadius(10)
                 
-                Button("3M") {
+                Button("1M") {
                     withAnimation {
+                        chartType = manager.oneMonthChartDate
                         selectedChart = .threeMonth
                     }
                 }
@@ -71,31 +76,12 @@ struct ChartView: View {
                 .foregroundColor(selectedChart == .threeMonth ? .white : .green)
                 .background(selectedChart == .threeMonth ? .green : .clear)
                 .cornerRadius(10)
-                
-                Button("YTD") {
-                    withAnimation {
-                        selectedChart = .yearToDate
-                    }
-                }
-                .padding(.all)
-                .foregroundColor(selectedChart == .yearToDate ? .white : .green)
-                .background(selectedChart == .yearToDate ? .green : .clear)
-                .cornerRadius(10)
-                
-                Button("1Y") {
-                    withAnimation {
-                        selectedChart = .oneYear
-                    }
-                }
-                .padding(.all)
-                .foregroundColor(selectedChart == .oneYear ? .white : .green)
-                .background(selectedChart == .oneYear ? .green : .clear)
-                .cornerRadius(10)
+
             }
             .padding(.top)
         }
         .onAppear {
-            print(manager.oneMonthChartDate)
+            chartType = manager.oneWeekChartDate
         }
     }
 }

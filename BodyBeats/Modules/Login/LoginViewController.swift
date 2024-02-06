@@ -11,20 +11,18 @@ import SwiftUI
 
 class LoginViewController: UIViewController {
     
+    @IBOutlet weak var imageloginBg: UIImageView!
     @IBOutlet weak var lblTitle: UILabel!
-    @IBOutlet weak var txtUserName: UITextField! {
-        didSet { txtUserName.attributedPlaceholder = NSAttributedString(string: "Username",
-                                                                        attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray]) }
-    }
-    @IBOutlet weak var txtPassword: UITextField! {
-        didSet { txtPassword.attributedPlaceholder = NSAttributedString(string: "Password",
-                                                                        attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray]) }
-    }
-    @IBOutlet weak var btnApple: ASAuthorizationAppleIDButton! {
-        didSet { btnApple.cornerRadius = 10 }
-    }
-    @IBOutlet weak var btnSignIn: UIButton! {
-        didSet { btnSignIn.layer.cornerRadius = 10 }
+    @IBOutlet weak var txtUserName: UITextField!
+    @IBOutlet weak var txtPassword: UITextField!
+    @IBOutlet weak var btnApple: ASAuthorizationAppleIDButton!
+    @IBOutlet weak var btnSignIn: UIButton!
+    
+    var userID = String()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setUI()
     }
     
     @IBAction func btnAppleClicked(_ sender: UIButton) {
@@ -37,26 +35,31 @@ class LoginViewController: UIViewController {
                 print("The Apple ID credential is valid.")
                 break
             case .revoked:
-                // The Apple ID credential is revoked.
+                self.appleAccountLoginHandling(message: "The Apple ID credential is revoked.")
                 print("The Apple ID credential is revoked.")
                 break
             case .notFound:
-                // Existing Account Setup Flow
+                self.appleAccountLoginHandling(message: "Need to handle apple SignIn request")
                 self.handleAppleIdRequest()
                 break
             default:
+                self.appleAccountLoginHandling(message: "Issue on sign in with Apple Accout")
                 print(String(describing: error?.localizedDescription))
                 break
             }
         }
     }
     
-    var userID = String()
-    
-    // Life Cycle
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setUI()
+    func appleAccountLoginHandling(message: String) {
+        DispatchQueue.main.async {
+            let alertController = UIAlertController(title: "Apple SignIn", message: message, preferredStyle: .alert)
+            
+            let okAction = UIAlertAction(title: "OK", style: .default) { (_) in
+                print("OK button tapped")
+            }
+            alertController.addAction(okAction)
+            self.present(alertController, animated: true, completion: nil)
+        }
     }
 }
 
@@ -65,6 +68,27 @@ extension LoginViewController {
     
     func setUI() {
         // set button Animation
+        let tintView = UIView()
+        tintView.backgroundColor = UIColor(white: 0, alpha: 0.5) //change to your liking
+        tintView.frame = CGRect(x: 0, y: 0, width: imageloginBg.frame.width, height: imageloginBg.frame.height)
+        
+        imageloginBg.addSubview(tintView)
+        txtUserName.layer.borderWidth = 1
+        txtUserName.layer.borderColor = UIColor.white.cgColor
+        txtUserName.layer.cornerRadius = 5
+        txtUserName.paddingLeftCustom = 8
+        
+        txtUserName.layer.masksToBounds = true
+        txtPassword.layer.borderWidth = 1
+        txtPassword.layer.borderColor = UIColor.white.cgColor
+        txtPassword.layer.cornerRadius = 5
+        txtPassword.paddingLeftCustom = 8
+        
+        txtPassword.layer.masksToBounds = true
+        btnApple.layer.cornerRadius = 5
+        btnSignIn.layer.cornerRadius = 5
+        
+        
         btnApple.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
         startAnimatingPressActions()
         UIView.animate(withDuration: 2.0,
@@ -95,12 +119,13 @@ extension LoginViewController {
 
 // MARK: - Button Action
 extension LoginViewController {
-
+    
     @IBAction func btnSignInClick(_ sender: Any) {
         if isValidate() {
             let swiftUIView =  ActiveTabView().environmentObject(HealthManager())
             let hostingController = UIHostingController(rootView: swiftUIView)
             hostingController.modalPresentationStyle = .fullScreen
+            hostingController.modalTransitionStyle = .crossDissolve
             self.present(hostingController, animated: true, completion: nil)
         }
     }
@@ -164,6 +189,7 @@ extension LoginViewController: ASAuthorizationControllerDelegate,ASAuthorization
         //            }
         //        }
     }
+    
     // Handle ASAuthorizationController Delegate and Presentation Context
     func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
         print(error.localizedDescription)
@@ -196,7 +222,6 @@ extension LoginViewController {
             button.transform = transform
         }, completion: nil)
     }
-    
 }
 
 extension UIViewController {
